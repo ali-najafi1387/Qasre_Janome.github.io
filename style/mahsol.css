@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Dana";
+  src: url("../font/Dana-Light.ttf") format("truetype"),
+    url("../font/Dana-Medium.ttf") format("truetype"),
+    url("../font/Dana-Black.ttf") format("truetype"),
+    url("../font/Dana-Bold.ttf") format("truetype");
+}
+
+* {
+  font-family: "Dana";
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+.header__site {
+  max-width: 85%;
+  height: 60px;
+  background-color: #fffffff1;
+  border: 2px solid rgb(219, 219, 219);
+  border-radius: 16px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 5px;
+}
+.item__rieght {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header__icon {
+  color: #ff1e1e;
+  font-size: 26px;
+  font-weight: bold;
+}
+.header__text {
+  color: black;
+  font-size: 1.2rem;
+}
+.item__left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.icon__button__header {
+  width: 30px;
+  align-items: center;
+  color: #ffffff;
+}
+.button__header {
+  width: 110px;
+  height: 35px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 0px;
+  background-color: rgb(255, 39, 64);
+  color: white;
+}
+.link__header {
+  text-decoration: none;
+}
+.header__text:hover {
+  opacity: 0.9;
+  color: rgb(255, 78, 78);
+  transition: 0.6s;
+}
+.link__header:hover {
+  transform: translateY(-5px);
+  transition: 0.6s;
+}
+
+.product__section {
+  max-width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 15px;
+  padding: 8px 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.img__box__product {
+}
+.caption__mahsol {
+  height: 50px;
+}
+.didgah__ratting {
+  display: block;
+  margin-bottom: 10px;
+}
+.ratting {
+  width: 14px;
+  color: #ffc107;
+}
+.didgah {
+}
+.berand {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 1px 10px;
+  margin-top: 25px;
+}
+.vijegi {
+  margin: 15px;
+}
+.continer__vijegi {
+  display: flex;
+}
+.box__vijegi {
+  background-color: #f2f2f2;
+  width: 90%;
+  height: 80px;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 8px;
+}
+.type__vijegi{
+  display: block;
+  font-size: small;
+  color: #a8a8a8;
+}
+.nam__vijegi{
+font-size: 1rem;
+}
+.all__vijegi {
+  background-color: #ffffff;
+  width: 96%;
+  height: 30px;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 8px;
+  margin: 4px auto;
+}
+.all__vijegi__h5 {
+  width: 120px;
+  margin: 4px auto;
+}
+.continer__saier__moshakhast {
+}
+.price{
+  font-size: 1.1rem;
+  color: #101010;
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  justify-content: left;
+}
+.price_number{
+  
+}
+.price_unit{
+  font-weight: bold;
+  
+}
+.garanti {
+  display: block;
+  margin: 5px;
+}
+.ersal {
+  display: block;
+  margin: 5px;
+}
+.button__add__bascet {
+  display: flex;
+  font-size: 1rem;
+  color: white;
+  width: 96%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(255, 39, 64);
+  border-radius: 8px;
+}
+.button__add__bascet_text {
+  margin: 6px auto;
+}
+
+.box__chat__icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 39, 64);
+  border-radius: 50%;
+  position: sticky;
+  right: 50px;
+  bottom: 40px;
+  margin-right: 25px;
+  margin-left: 50px;
+  box-shadow: 2px 2px 4px rgb(145, 145, 145);
+  animation-iteration-count: 10;
+}
+div.box__chat__icon:hover {
+  opacity: 0.9;
+  color: rgb(78, 78, 78);
+  transition: 0.4s;
+  transform: translatey(4px);
+}
+.chat__icon {
+  width: 45px;
+  height: 45px;
+  color: #ffffff;
+  margin-right: 7px;
+  margin-top: 10px;
+}
+
+.footer {
+  max-width: 85%;
+  background-color: #fffffff1;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+.line__top__footer {
+  max-width: 80%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+.footer__ul {
+  list-style: none;
+  line-height: 35px;
+  font-weight: bold;
+}
+.footer__caption {
+  margin-top: 50px;
+}
+.footer__li {
+  color: #9ca3af;
+}
+.footer__li__link {
+  text-decoration: none;
+}
+.symboll {
+}
+.footer__caption__symboll {
+  margin-top: 70px;
+  margin-right: 20px;
+}
+.symboll__img {
+  max-width: 80px;
+  margin-left: 50px;
+}
+.main__footer {
+  max-width: 85%;
+  height: auto;
+  background-color: #f8f8f8;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+.main__footer__text {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding: 10px 0px;
+}
