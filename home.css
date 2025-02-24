@@ -121,10 +121,9 @@ width: 50%;
 z-index: -90;
 }
 .image__header{
-  margin: 0;
+  margin:0 auto;
   padding: 0;
   width: 80%;
-  height: 100%;
  border-radius: 8px;
 }
 
@@ -214,8 +213,9 @@ scroll-margin-inline: 8px;
   border-radius: 8px;
   border: 0px;
   margin-top: 6px;
-  background-color: rgb(255, 39, 64);
-  color: white;
+  background-color: rgb(255, 51, 75);
+  box-shadow: 0 0 16px #d8d8d8;
+  color: rgb(255, 255, 255);
 }
 button:hover {
   opacity: 0.9;
@@ -258,8 +258,8 @@ button:hover {
   background-color: rgb(255, 39, 64);
   border-radius: 50%;
   position: sticky;
-  right: 50px;
-  bottom: 40px;
+  right: 30px;
+  bottom: 55px;
   margin-right: 25px;
   margin-left: 50px;
   box-shadow: 2px 2px 4px rgb(145, 145, 145);
@@ -370,6 +370,7 @@ div.box__chat__icon:hover {
   background-color: #f8f8f8;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 0;
   border-radius: 10px;
 }
 .main__footer__text {
@@ -378,6 +379,38 @@ div.box__chat__icon:hover {
   margin-top: auto;
   padding: 10px 0px;
 }
+
+.mobile__nav{
+  position: sticky;
+  bottom: 0;
+  background-color: #ffffff;
+  width: 100%;
+  height: 3.2rem;
+display: none;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 0 8px #afafaf;
+padding:0 10px;
+z-index: 10;
+border-radius: 6px 6px 0 0;
+ }
+ .link__mobile__nav{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.1rem;
+ }
+ .link__mobile__nav{
+ text-decoration: none;
+ color: #000;
+ }
+ .icon__mobile__nav{
+ width: 20px;
+ }
+ .text__mobile__nav{
+ 
+ }
 
 
 
@@ -506,6 +539,7 @@ display: none;
   gap: 8px;
  }
  .box__chat__icon{
+  top: 15px;
   width: 40px;
   height: 40px;
  }
@@ -515,5 +549,8 @@ display: none;
   color: #ffffff;
   margin-right: 5px;
   margin-top: 7px;
+ }
+ .mobile__nav{
+display: flex;
  }
 }
